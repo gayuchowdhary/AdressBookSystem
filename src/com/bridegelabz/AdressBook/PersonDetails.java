@@ -57,6 +57,38 @@ public class PersonDetails {
         this.phoneNumber = phoneNumber;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public Integer getZip() {
+        return zip;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public Long getPhoneNumber() {
+        return phoneNumber;
+    }
+
     @Override
     public String toString() {
         return "PersonDetails{" +
